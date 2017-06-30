@@ -1,0 +1,5 @@
+keycloack:keycloack.seb.wescale
+apache:apache.seb.wescale
+kube-0:kubernetes-0.seb.wescale
+kube-1:kubernetes-1.seb.wescale
+kube-2:kubernetes-2.seb.wescale

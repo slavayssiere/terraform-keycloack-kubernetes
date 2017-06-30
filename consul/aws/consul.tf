@@ -47,7 +47,7 @@ resource "aws_instance" "server" {
 #     vpc = true
 # }
 
-resource "aws_elb" "consul-lb" {
+resource "aws_elb" "consul_lb" {
   name               = "ui-consul-elb"
   security_groups = ["${var.my_public_security_group_ids}", "${aws_security_group.consul.id}"]
   subnets = ["${var.my_public_subnet_id}"]
